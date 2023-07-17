@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar comandos;
+
+public <comando_principal> = abi <accion> ;
+<accion> = activa_el_modo_cine | activa_el_modo_desarrollador | cierra_el_asistente_de_voz | minimiza_todas_las_ventanas ;
+<activa_el_modo_cine> = activa el modo cine ;
+<activa_el_modo_desarrollador> = activa el modo desarrollador ;
+<cierra_el_asistente_de_voz> = cierra el asistente de voz ;
+<minimiza_todas_las_ventanas> = minimiza todas las ventanas ;
